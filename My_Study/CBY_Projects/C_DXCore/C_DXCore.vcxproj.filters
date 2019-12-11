@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{aea7dbc9-c91c-45b8-8bc2-2681d8773d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{e94fa9e2-cccc-4992-a610-eaa819e95050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{78afba44-f356-4b52-bbd0-20f9d6e5ef99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{c3041341-e81c-47f5-89b8-d9003699bd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{bd06d26f-c0d0-46fb-b46c-63d7aadb5b9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBYCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBYWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Device.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBY_Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CTime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Math.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxHelper.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxHelperEx.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxState.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CShapeObject.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CShapeMap.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CShapeBox.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Intersection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBYWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cstd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBYCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Device.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBY_Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTime.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Math.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxHelper.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxHelperEx.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxState.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeObject.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeMap.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeBox.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Intersection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\data\shader\DefaultShader.txt">
+      <Filter>Shader</Filter>
+    </Text>
+    <Text Include="..\..\data\shader\ColorBlend.txt">
+      <Filter>Shader</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

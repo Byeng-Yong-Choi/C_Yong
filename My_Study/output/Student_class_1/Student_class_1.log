@@ -1,0 +1,46 @@
+﻿  Control.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(22): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(23): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(24): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(25): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(15): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(16): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(17): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+  ex.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(22): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(23): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(24): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(25): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(15): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(16): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(17): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+  LinkList.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(22): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(23): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(24): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(25): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(15): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(16): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(17): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+  student.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(22): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(23): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(24): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(25): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.cpp(27): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.cpp(33): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.cpp(36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.cpp(39): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+  StuNode.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(22): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(23): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(24): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\student.h(25): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(15): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(16): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.h(17): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.cpp(9): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.cpp(31): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\student_class_1\stunode.cpp(43): warning C4227: 오래된 구문을 사용했습니다. 참조의 한정자가 무시됩니다.
+  코드를 생성하고 있습니다...
+  Student_class_1.vcxproj -> D:\C 1320044\My_Study (1)\My_Study\CBY_Projects\Student_class_1\../../output/Student_class_1.exe

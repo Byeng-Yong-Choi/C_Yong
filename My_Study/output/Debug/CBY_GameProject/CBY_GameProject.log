@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  CBY_GameMain.cpp
+d:\새 폴더\my_study\cby_projects\cby_gameproject\cby_gamemain.cpp(190): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\cby_gamemain.cpp(215): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\cby_gamemain.cpp(223): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C_ATTACK.cpp
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_attack.cpp(98): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_attack.cpp(163): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_attack.cpp(6): warning C4101: 'Effectnode' :참조되지 않은 지역 변수입니다.
+  C_Create.cpp
+  C_DEATH.cpp
+  C_Damage.cpp
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_damage.cpp(6): warning C4101: 'Effectnode' :참조되지 않은 지역 변수입니다.
+  C_Demolish.cpp
+  C_LevelUP.cpp
+  C_Make.cpp
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_make.cpp(6): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_make.cpp(6): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\c_make.cpp(9): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C_MonClear.cpp
+  C_Move.cpp
+  C_Null.cpp
+  C_ObjectMT.cpp
+  C_STANDBY.cpp
+  C_TowerStandBy.cpp
+  TowerPosition.cpp
+d:\새 폴더\my_study\cby_projects\cby_gameproject\towerposition.cpp(113): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\towerposition.cpp(313): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\towerposition.cpp(314): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\새 폴더\my_study\cby_projects\cby_gameproject\towerposition.cpp(315): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  LINK : ../../output/Debug/CBY_GameProject.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  CBY_GameProject.vcxproj -> D:\새 폴더\My_Study\CBY_Projects\CBY_GameProject\../../output/Debug/CBY_GameProject.exe

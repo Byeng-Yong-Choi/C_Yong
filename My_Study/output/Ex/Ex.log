@@ -1,0 +1,4 @@
+﻿  ex.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\ex\ex.cpp(8): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+d:\c 1320044\my_study (1)\my_study\cby_projects\ex\ex.cpp(9): warning C4309: '초기화 중': 상수 값이 잘립니다.
+  Ex.vcxproj -> D:\C 1320044\My_Study (1)\My_Study\CBY_Projects\Ex\../../output/Ex.exe

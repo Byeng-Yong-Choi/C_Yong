@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  Sample.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\corelib\sample.cpp(82): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  TCore.cpp
+  TLinkedList.cpp
+  TNode.cpp
+  TObject.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\corelib\tobject.cpp(54): warning C4129: 'F': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+  TWindow.cpp
+  코드를 생성하고 있습니다...
+  CoreLib.vcxproj -> C:\Users\cby01\OneDrive\Desktop\C++\My_Study\CBY_Projects\CoreLib\../../output/CoreLib.exe

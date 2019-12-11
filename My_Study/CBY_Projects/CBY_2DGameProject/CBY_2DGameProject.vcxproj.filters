@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{d6f6ab00-706c-4dfc-b0e1-24151190ab0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{ccf153d1-ac45-41a1-8185-2d4bbfeba84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{98344d94-c7d1-4c32-a80e-dd52c2d5d75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Charctersrc">
+      <UniqueIdentifier>{95869f13-3f40-48bc-b210-bc9e86efbf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Gokussgss">
+      <UniqueIdentifier>{6525e705-5708-4941-9f17-207e97588c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2c930bbf-22f8-424e-bcaa-103c5b861829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\HP">
+      <UniqueIdentifier>{70ca4ade-6dea-4ca0-91b8-cada5ecb2aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Timer">
+      <UniqueIdentifier>{1dad2cc2-3ad4-4100-9c62-c3899e6af521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{dac90ee6-2347-4250-aab7-1b985dc6e523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\FSM">
+      <UniqueIdentifier>{386da3a0-a8cd-4d00-9c98-23d2b43ccaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Enemy">
+      <UniqueIdentifier>{9fc089ec-3efe-4e2b-8b9f-478386771ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Enemy\EnemyFSM">
+      <UniqueIdentifier>{72ae7478-dc09-4ce7-882e-c14b4878c15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Enemy\EnemyState">
+      <UniqueIdentifier>{d4927ed2-7651-4cb7-b730-c59a64030464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSrc.cpp">
+      <Filter>Character\Charctersrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Gokussgss.cpp">
+      <Filter>Character\Gokussgss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>UI\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPrcess.cpp">
+      <Filter>AI\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFSM.cpp">
+      <Filter>AI\Enemy\EnemyFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyState.cpp">
+      <Filter>AI\Enemy\EnemyFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EnemyAttack.cpp">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EnemyDeath.cpp">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EnemyPatrol.cpp">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EnemyStandby.cpp">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="HP.cpp">
+      <Filter>UI\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="CharMove.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMain.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSrc.h">
+      <Filter>Character\Charctersrc</Filter>
+    </ClInclude>
+    <ClInclude Include="Gokussgss.h">
+      <Filter>Character\Gokussgss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>UI\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPrcess.h">
+      <Filter>AI\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFSM.h">
+      <Filter>AI\Enemy\EnemyFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>AI\Enemy\EnemyFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EnemyAttack.h">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EnemyDeath.h">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EnemyPatrol.h">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EnemyStandby.h">
+      <Filter>AI\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="HP.h">
+      <Filter>UI\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="CharMgr.h">
+      <Filter>Character\Charctersrc</Filter>
+    </ClInclude>
+    <ClInclude Include="CharMove.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

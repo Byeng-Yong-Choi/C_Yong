@@ -1,0 +1,3 @@
+﻿  ex.cpp
+d:\c 1320044\my_study (1)\my_study\cby_projects\strcmp\ex.cpp(9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  strcmp.vcxproj -> D:\C 1320044\My_Study (1)\My_Study\CBY_Projects\strcmp\../../output/strcmp.exe

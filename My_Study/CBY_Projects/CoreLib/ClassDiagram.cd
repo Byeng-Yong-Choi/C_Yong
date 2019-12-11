@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TObject" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAABAkBBAAAAE=</HashCode>
+      <FileName>TObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCore" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACAAAAAAAAAAACCAAQAAAgBACABCAEAM=</HashCode>
+      <FileName>TCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TWindow" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAA=</HashCode>
+      <FileName>TWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAECgABAgIgoAAAAAAAAAAECAAAAACACAABAAgA=</HashCode>
+      <FileName>TLinkedList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNode&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAAIAAIAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TObjChild" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Sample.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sample" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAIAAAABAAAAAAAAAABACABAAAAE=</HashCode>
+      <FileName>Sample.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

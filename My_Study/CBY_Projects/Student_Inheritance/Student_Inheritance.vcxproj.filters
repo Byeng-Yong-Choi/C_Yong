@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Control.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="StuNode.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="University.h">
+      <Filter>Univ</Filter>
+    </ClInclude>
+    <ClInclude Include="HighResult.h">
+      <Filter>High</Filter>
+    </ClInclude>
+    <ClInclude Include="HighSchool.h">
+      <Filter>High</Filter>
+    </ClInclude>
+    <ClInclude Include="UnivResult.h">
+      <Filter>Univ</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentMgn.h" />
+    <ClInclude Include="err.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Control.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="StuNode.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="University.cpp">
+      <Filter>Univ</Filter>
+    </ClCompile>
+    <ClCompile Include="HighResult.cpp">
+      <Filter>High</Filter>
+    </ClCompile>
+    <ClCompile Include="HighSchool.cpp">
+      <Filter>High</Filter>
+    </ClCompile>
+    <ClCompile Include="UnivResult.cpp">
+      <Filter>Univ</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StudentMgn.cpp" />
+    <ClCompile Include="err.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="STL">
+      <UniqueIdentifier>{195ae2d2-4f9a-4ad1-9438-d072499f3a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="High">
+      <UniqueIdentifier>{756b412b-eb51-4034-a3d1-e35f78f22f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Univ">
+      <UniqueIdentifier>{f9872bb0-5f94-434b-8c5f-953c579fcf4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿  C_Sound.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\xc_sound\c_sound.cpp(3): error C2059: 구문 오류: ')'
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\xc_sound\c_sound.cpp(4): error C2143: 구문 오류: ')'이(가) '{' 앞에 없습니다.
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\xc_sound\c_sound.cpp(5): error C2664: 'FMOD_RESULT FMOD::System::createSound(const char *,FMOD_MODE,FMOD_CREATESOUNDEXINFO *,FMOD::Sound **)': 인수 1을(를) 'const TCHAR *'에서 'const char *'(으)로 변환할 수 없습니다.
+  c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\xc_sound\c_sound.cpp(5): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  C_SoundManager.cpp
+  코드를 생성하고 있습니다...
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\xc_sound\c_soundmanager.cpp(7): error C4700: 초기화되지 않은 'sound' 지역 변수를 사용했습니다.

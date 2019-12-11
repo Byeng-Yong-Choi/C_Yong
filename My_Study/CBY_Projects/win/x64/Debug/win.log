@@ -1,0 +1,17 @@
+﻿  BackGround.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\background.cpp(33): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  BitMap.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\bitmap.cpp(38): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Char.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\char.cpp(67): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  C_Object.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\c_object.cpp(51): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Effect.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\effect.cpp(52): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  main.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\main.cpp(426): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Monster.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\monster.cpp(36): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Weapon.cpp
+c:\users\cby01\onedrive\desktop\c++\my_study\cby_projects\win\weapon.cpp(41): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...

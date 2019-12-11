@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2492e94b-7a26-43b2-bf15-8da1997088f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6912e911-37a9-4721-ac11-f9c78354f77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스파일">
+      <UniqueIdentifier>{0fd8a423-2ea5-4305-8e2c-2ac3191217fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TWindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TLinkedList.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TNode.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>소스파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TWindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TLinkedList.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TNode.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
