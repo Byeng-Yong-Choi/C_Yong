@@ -43,6 +43,7 @@ void C_Seversrc::RecvProcess()
 			iter++;
 		}
 	}
+	m_recv++;
 }
 
 void C_Seversrc::SendProcess()
@@ -61,10 +62,13 @@ void C_Seversrc::SendProcess()
 		//std::cout << "º¸³¿ : "<<data->data << std::endl;
 	}
 	C_Server::m_RecvPool.clear();
+	m_send++;
 }
 
 C_Seversrc::C_Seversrc()
 {
+	m_recv = 0;
+	m_send = 0;
 }
 
 

@@ -14,8 +14,7 @@ int main()
 			L"중복실행", MB_OK);
 		return 1;
 	}
-	C_Server m_Sever;
-	m_Sever.Connect(10005,nullptr);
+	m_src.Connect(10005,nullptr);
 
 
 	//클라이언트와 서버의 데이터 주고받기
@@ -32,7 +31,7 @@ int main()
 	
 	while (1)
 	{
-		ClientSocket = accept(m_Sever.m_Socket, (SOCKADDR*)&ClientAddr, &addlen);		//listen이 넌블록으로 만들어져 accept된 소켓도 넌블럭이다.
+		ClientSocket = accept(m_src.m_Socket, (SOCKADDR*)&ClientAddr, &addlen);		//listen이 넌블록으로 만들어져 accept된 소켓도 넌블럭이다.
 
 		if (ClientSocket == SOCKET_ERROR)			//접속자가 없으면 에러로 뜨는데 접속 없거나 에러일때 두 가지이다
 		{
@@ -45,6 +44,10 @@ int main()
 		{
 			m_src.addUserList(ClientSocket, ClientAddr);
 		}
+
+		/*std::cout << "RECV : " << m_src.m_recv << std::endl;
+		std::cout << "SEND : " << m_src.m_send << std::endl;
+		Sleep(1000);*/
 	}
 	
 
@@ -67,6 +70,7 @@ DWORD WINAPI SendThread(LPVOID arg)
 			C_Lock Lock(pServer);
 			pServer->SendProcess();
 		}
+		//Sleep(1);
 	}
 	return 0;
 }
@@ -80,6 +84,7 @@ DWORD WINAPI RecvThread(LPVOID arg)
 			C_Lock Lock(pServer);
 			pServer->RecvProcess();
 		}
+		//Sleep(1);
 	}
 	return 0;
 }

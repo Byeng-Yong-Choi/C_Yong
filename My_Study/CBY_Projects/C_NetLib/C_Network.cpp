@@ -6,11 +6,26 @@ std::map<int, Fuction> C_Network::m_fPacketFun;
 
 bool C_Network::Run()
 {
-	if (m_Packet.AddPaket(m_Socket) > 0)
-	{
-		PacketProcess();
-	}
+	
 	return true;
+}
+
+int C_Network::PushSendPool(SOCKET sock, const char* buf, int iLength)
+{
+	if (iLength == 0)
+	{
+		return -1;
+	}
+	USERPAKET packet;
+	ZeroMemory(&packet, sizeof(USERPAKET));
+	packet.ph.len = PACKET_HEADER_SIZE + iLength;
+	packet.ph.type = PACKET_CHAT_MSG;
+	memcpy(packet.data, buf, iLength);
+	
+	C_Network::m_SendPool.push_back(packet);
+	std::list<USERPAKET>::iterator iter;
+	iter = m_SendPool.begin();
+	return 0;
 }
 
 int C_Network::SendMSG(SOCKET sock, const char* buf, int iLength)
@@ -37,6 +52,15 @@ int C_Network::SendMSG(SOCKET sock, const char* buf, int iLength)
 
 int C_Network::SendMSG(SOCKET sock, USERPAKET& data)
 {
+
+	/*char* pSendBuffer = (char*)&data;
+	int iSendByte = send(sock, (char*)&data, data.ph.len, 0);
+	while (iSendByte < data.ph.len)
+	{
+		pSendBuffer += iSendByte;
+		iSendByte += send(sock, pSendBuffer, data.ph.len - iSendByte, 0);
+	}
+	return 0;*/
 	int DataSize = data.ph.len - PACKET_HEADER_SIZE;
 	char msgbuf[PACKET_MAX_SIZE];
 	ZeroMemory(msgbuf, PACKET_MAX_SIZE);

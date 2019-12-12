@@ -6,6 +6,8 @@ typedef std::list<C_User>::iterator C_Uiter;
 class C_Seversrc:public C_Server
 {
 public:
+	int m_recv;
+	int m_send;
 	std::list<USERPAKET> g_Packet_List;
 	std::list<C_User> g_User_List;
 	HANDLE   g_hMutex;

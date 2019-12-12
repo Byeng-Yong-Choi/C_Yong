@@ -2,7 +2,7 @@
 
 bool C_Client::Connect(int iPort, const char* ip, int iSockType, int iMode)
 {
-	if (!CreateSock(iSockType, false))
+	if (!CreateSock(iSockType, iMode))
 	{
 		return false;
 	}
@@ -15,6 +15,15 @@ bool C_Client::Connect(int iPort, const char* ip, int iSockType, int iMode)
 
 	int iRet = connect(m_Socket, (SOCKADDR*)&sa, sizeof(sa));
 
+	return true;
+}
+
+bool C_Client::Run()
+{
+	if (m_Packet.AddPaket(m_Socket) > 0)
+	{
+		PacketProcess();
+	}
 	return true;
 }
 

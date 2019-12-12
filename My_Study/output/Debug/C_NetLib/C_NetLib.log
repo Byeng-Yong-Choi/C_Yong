@@ -1,13 +1,7 @@
-﻿  C_Client.cpp
-  C_Network.cpp
-  C_Server.cpp
-  C_Thread.cpp
-d:\수정\my_study (3)\my_study\cby_projects\c_netlib\c_thread.cpp(12): warning C4244: '=': 'uintptr_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  C_User.cpp
-  코드를 생성하고 있습니다...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1397,5): warning MSB8012: TargetPath(D:\수정\My_Study (3)\My_Study\CBY_Projects\C_NetLib\../../output/Debug/C_NetLib.lib)이(가) Library의 OutputFile 속성 값(D:\수정\My_Study (3)\My_Study\CBY_Projects\C_NetLib\C_NetLib_d.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+﻿  C_User.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1397,5): warning MSB8012: TargetPath(D:\Yong_GitHub\C_Yong\My_Study\CBY_Projects\C_NetLib\../../output/Debug/C_NetLib.lib)이(가) Library의 OutputFile 속성 값(D:\Yong_GitHub\C_Yong\My_Study\CBY_Projects\C_NetLib\C_NetLib_d.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1399,5): warning MSB8012: TargetName(C_NetLib)이(가) Library의 OutputFile 속성 값(C_NetLib_d)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
-  C_NetLib.vcxproj -> D:\수정\My_Study (3)\My_Study\CBY_Projects\C_NetLib\../../output/Debug/C_NetLib.lib
+  C_NetLib.vcxproj -> D:\Yong_GitHub\C_Yong\My_Study\CBY_Projects\C_NetLib\../../output/Debug/C_NetLib.lib
   C_NetLib_d.lib
           1개 파일이 복사되었습니다.
   C_Client.h

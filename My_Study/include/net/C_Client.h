@@ -8,6 +8,7 @@ public:
 public:
 	bool Connect(int iPort, const char* ip, int iSockType = SOCK_STREAM, int iMode = TRUE);
 	virtual bool RunThread() override;
+	virtual bool Run() override;
 
 public:
 	C_Client();

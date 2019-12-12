@@ -4,8 +4,15 @@
 class C_Clientsrc: public C_Client
 {
 public:
+	FD_SET rSet;
+	FD_SET wSet;
+
+public:
+	bool Init();
 	void SetFunction();
 	bool RunThread() override;
+	bool Run() override;
+	bool SelectRun();
 
 public:
 	static void RecvMsg(USERPAKET& pk);

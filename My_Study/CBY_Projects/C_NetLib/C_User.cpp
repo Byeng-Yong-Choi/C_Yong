@@ -19,7 +19,7 @@ int C_User::AddPaket(SOCKET sock)
 			}
 		}
 		m_iWirtenum += RecvData;
-		m_pWirtepos = m_userbuf + m_iWirtenum;
+		m_pWirtepos = &m_userbuf[m_iWirtenum];
 		if (m_iWirtenum == PACKET_HEADER_SIZE)
 		{
 			m_pRecvPacket = (USERPAKET*)m_userbuf;
@@ -27,10 +27,10 @@ int C_User::AddPaket(SOCKET sock)
 	}
 	else
 	{
-		m_iWirtenum += recv(sock, m_pWirtepos, m_pRecvPacket->ph.len - PACKET_HEADER_SIZE, 0);
-		m_pWirtepos = m_userbuf + m_iWirtenum;
+		m_iWirtenum += recv(sock, m_pWirtepos, m_pRecvPacket->ph.len - m_iWirtenum, 0);
+		m_pWirtepos = &m_userbuf[m_iWirtenum];
 
-		if (m_iWirtenum >= m_pRecvPacket->ph.len)
+		if (m_iWirtenum == m_pRecvPacket->ph.len)
 		{
 			USERPAKET packet;
 			memcpy(&packet, m_pRecvPacket, sizeof(USERPAKET));
@@ -40,7 +40,7 @@ int C_User::AddPaket(SOCKET sock)
 			ZeroMemory(&m_userbuf, PACKET_MAX_SIZE);
 			m_iWirtenum = 0;
 			m_iReadnum = 0;
-			m_pWirtepos = m_userbuf;
+			m_pWirtepos = &m_userbuf[m_iWirtenum];
 		}
 	}
 	return 1;
