@@ -2,10 +2,12 @@
 
 bool C_Clientsrc::Init()
 {
-	if (!Connect(10005, "192.168.0.49"))
+	if (!Connect(10005, "192.168.0.49"))	//내서버
+	//if (!Connect(10000, "192.168.0.111"))		//선생님 서버
 	{
 		return false;
 	}
+	SetFunction();
 	return true;
 }
 
@@ -21,7 +23,8 @@ bool C_Clientsrc::SelectRun()
 
 	FD_SET(m_Socket, &rSet);
 	//FD_SET(m_Socket, &wSet);
-	if (C_Network::m_SendPool.size() != 0)
+	//if (C_Network::m_SendPool.size() != 0)		//패킷 직접 주고받을시
+	if (C_Network::m_ssSendPool.size() != 0)		//스트링 이용
 	{
 		FD_SET(m_Socket, &wSet);
 	}
@@ -47,13 +50,15 @@ bool C_Clientsrc::SelectRun()
 	{
 		{
 			C_Lock Lock(&m_Lock);
-		for (auto& packet : C_Network::m_SendPool)
-		{
-			C_Network::SendMSG(m_Socket, packet);
-		}
+		//for (auto& packet : C_Network::m_SendPool)	//패킷을 직접 넣을때
+			for (auto& sspacket : C_Network::m_ssSendPool)	//스트링을 이용한 패킷 주고받기 사용시
+			{
+				C_Network::SendMSG(m_Socket, sspacket);
+			}
 
 		
-			C_Network::m_SendPool.clear();
+			//C_Network::m_SendPool.clear();		//패킷 직접이용시
+			C_Network::m_ssSendPool.clear();			//스트링 이용
 		}
 	}
 
@@ -82,7 +87,7 @@ bool C_Clientsrc::RunThread()
 		}
 		{
 			C_Lock Lock(&m_Lock);
-			PushSendPool(m_Socket, buf, strlen(buf) - 1);
+			PushSendPool(buf, strlen(buf) - 1);
 		}
 	}
 	closesocket(m_Socket);
